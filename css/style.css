@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: Roboto;
+    background-color: #faf5f588;
+    height: 100vh;
+    width: 100%;
+}
+.form-section-solicitacao{
+    width: 100%;
+}
+.form-group-solicitacao{
+    width: 100%;
+    height: auto;    
+}
+
+.title-form-solicitacao{
+    background-image: linear-gradient(to right, #5e2d7c, #f85c4e );
+    color: #ffffff;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.title-form-solicitacao h6{
+    padding: 20px 0px;
+    font-size: 1.2rem;
+}
+
+.form-content-solicitacao{
+    border-bottom: 1px solid #5e2d7c;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.cliente{
+    margin-top: 20px;
+}
+
+.form-content-solicitacao input{
+    margin: 3px 0px;
+    height: 2rem;
+    border: 2px solid #f85c4e;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-size: 1rem;
+    color: #240B35;
+}
+
+.form-content-solicitacao label{
+    margin-top: 7px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #240B35;
+}
+
+.form-content-solicitacao select{
+    margin: 3px 0px;
+    height: 2.1rem;
+    border: 2px solid #f85c4e;
+    border-radius: 5px;
+}
+
+.form-content-solicitacao textarea{
+    margin: 3px 0px;
+    border: 2px solid #f85c4e;
+    border-radius: 5px;
+    height: 6rem;
+}
+
+
+.button{
+    margin-top: 50px;
+    border-bottom: none;
+}
+
+.button input{
+    width: 20%;
+    background-color: #240B35;
+    color: #ffffff;
+    font-size: 1rem;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+.button input:hover{
+    cursor: pointer;
+    background-color: #f85c4e;
+    color: white;
+}
+
+
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitação de Serviço</title>
+    <link rel="stylesheet" href="./css/materialize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="form-section-solicitacao container">
+        <form class="form-group-solicitacao">
+            <div class="title-form-solicitacao center">
+                <h6>Solicitação de Serviço</h6>
+            </div>
+            <div class="form-content-solicitacao row cliente">
+                <label for="cliente" class="col s6 m4 l2">Cliente:</label>
+                <select class="col s6 m8 l3" name="cliente" id="cliente" required>
+                    <option value="1">João Henrique</option>
+                    <option value="2">Gabriel</option>
+                    <option value="3">Rafaela</option>
+                </select>
+            </div>
+            <div class="form-content-solicitacao row">
+               <label for="nome-negocio" class="col s6 m4 l2">Negócio:</label>
+                <select class="col s6 m8 l3" name="nome-negocio" id="nome-negocio" disabled>
+                    <option value="1">Nome do Negócio</option>
+                    <option value="2">#</option>
+                    <option value="3">#</option>
+                </select>
+            </div>
+            <div class="form-content-solicitacao row">
+                <label for="servico" class="col s6 m4 l2">Serviço:</label>
+                <select class="col s6 m8 l3" name="servico" id="servico" required>
+                    <option value="1">Treinamentos e Consultorias</option>
+                    <option value="2">Desenvolvimento de Software</option>
+                    <option value="3">Design/Rede Sociais</option>
+                    <option value="4">Modelagem de Negócios</option>
+                    <option value="5">Infraestrutura de Redes</option>
+                </select>
+            </div>
+            <div class="form-content-solicitacao row">
+                <label for="descricao" class="col s6 m4 l2">Descrição:</label>
+                <textarea class="col s6 m8 l3" name="descricao" id="descricao" cols="30" rows="10"></textarea>
+            </div>
+            <div class="form-content-solicitacao row">
+            <label for="contato" class="col s6 m4 l2">Forma de contato de preferência:</label>
+                <select class="col s6 m8 l3" name="contato" id="contato">
+                    <option value="1">Presêncial</option>
+                    <option value="2">Telefone</option>
+                    <option value="3">Email</option>
+                </select>
+            </div>
+            <div class="form-content-solicitacao row">
+                <label for="horario" class="col s6 m4 l2">Melhor horário para contato:</label>
+                <input class="col s3 m4 l1" type="time" name="horario" id="horario">
+                </select>
+            </div>
+            <div class="form-content-solicitacao button center">
+                <input type="submit" value="Solicitar">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
